@@ -1,9 +1,10 @@
 import './styles.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import SecondsCounter from './components/SecondsCounter';
 
 const App = () => {
-    return <div>12:45 PM</div>;
+    return <SecondsCounter />;
 };
 
 ReactDOM.render(<App />, document.querySelector('#root'));
