@@ -1,5 +1,8 @@
-@import '../assets/digital_7/digital-7\ \(mono\).ttf';
+@font-face {
+    font-family: 'digital-7';
+    src: url('./assets/digital_7/digital-7\ \(mono\).ttf') format('truetype');
+}
 
 * {
-    font-family: 'digital-7 mono';
+    font-family: 'digital-7';
 }
